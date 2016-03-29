@@ -1,0 +1,33 @@
+    <!DOCTYPE html>
+    <html>
+       <head>
+           <head>
+                <!-- Css files-->
+                <link type="text" rel="stylesheet" href="css/bootstrap.css"/>
+                <link type="text" rel="stylesheet" href="css/style.css"/>
+            </head>
+       </head>
+       <body ng-app="myApp" ng-controller="PageController">
+           <div class="center-box">
+           <!--Search Bar-->
+              <div class="row">
+                  <div class="col-md-8 ">
+                      <input type="text" class="form-control" style="height:40px;font-size:18px" placeholder="Enter Country Name" ng-model="countryName" ng-change="inputChange()">
+                  </div>
+               </div>
+                                   <!--Information-->  
+               <div class="row" style="" ng-show="showOrno">
+                      <p class="bg-success">Capital:{{words.capital}}</p>
+                      <p class="bg-info">Population:{{words.population}}</p>
+                      <p class="bg-warning">Language:{{words.languages}}</p>
+                      <p class="bg-danger">Continent:{{words.continent}}</p>
+               </div>
+           </div>
+           <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+           <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+           <script src="js/countries.js" type="text/javascript"></script>
+           <script src="js/app.js" type="text/javascript"></script>
+           <script src="js/maincontroller.js" type="text/javascript"></script>  
+       </body>
+    </html>

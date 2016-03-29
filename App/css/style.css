@@ -1,0 +1,41 @@
+body{
+    background: url("http://www.freelargeimages.com/wp-content/uploads/2014/12/World_map_png-6.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.center-box{
+    width:600px;
+    height:250px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-left:50px;
+    padding-top:15px;
+}
+.row{
+    padding-left:90px;
+    padding-top:15px;
+}
+.col-md-8{
+    padding:0;
+    opacity: 0.95;
+    margin-bottom: 20px;
+}
+.col-md-4{
+    opacity: 0.95;
+}
+p{
+    width:328px;
+    height:40px;
+    opacity: 0.95;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-size: 18px
+}
+
+
